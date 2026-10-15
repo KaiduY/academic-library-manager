@@ -1,0 +1,15 @@
+# Copy this file to ~/.config/academic-library/config.toml and edit the paths.
+[paths]
+library_root = "/path/to/Academic_Library"
+database_path = "~/.local/share/academic-library/catalog.sqlite3"
+taxonomy_path = "~/.config/academic-library/taxonomy.toml"
+staging_directory = "~/.local/share/academic-library/staging"
+log_directory = "~/.local/state/academic-library/logs"
+
+[scan]
+# Hash unchanged files only when size or mtime_ns changed; use --full-hash to force all hashes.
+ignore_directories = [".git", "__pycache__", ".venv", "node_modules"]
+
+[metadata]
+# Optional absolute path to pdfinfo. Leave empty to use filename-only inference.
+pdfinfo_command = ""

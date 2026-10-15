@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "academic-library-manager"
+version = "0.1.0"
+description = "A conservative, auditable CLI catalog and maintenance tool for an academic file library"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Academic Library Manager contributors" }]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7.4"]
+lint = ["ruff>=0.5"]
+
+[project.scripts]
+academic-library = "academic_library.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+academic_library = ["data/*.toml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

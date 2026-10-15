@@ -1,0 +1,276 @@
+version = "1.0.0"
+review_subject = "review.unclassified"
+document_types = ["textbook", "monograph", "research_paper", "lecture_notes", "exercise_sheet", "solution_set", "reference", "course_material", "thesis", "code_or_data", "other"]
+
+[type_keywords]
+solution_set = ["solution manual", "solutions manual", "solutions", "answer key", "solved problems", "solutii", "barem"]
+exercise_sheet = ["problem set", "problem sheet", "exercise sheet", "exercises", "homework", "worksheet", "problemset", "exam questions", "olympiad"]
+lecture_notes = ["lecture notes", "lecturenotes", "lecture-notes", "course notes", "course material", "lectures", "cheat sheet", "cheatsheet", "formula sheet", "summary", "reminder"]
+research_paper = ["arxiv", "preprint", "journal", "doi"]
+thesis = ["thesis", "dissertation"]
+code_or_data = [".py", ".ipynb", ".csv", ".json", ".tex", ".bib"]
+reference = ["handbook", "encyclopedia", "dictionary", "formulary"]
+
+[[subjects]]
+id = "mathematics"
+name = "Mathematics"
+parent_id = ""
+path = "01_Mathematics"
+keywords = ["mathematics", "math"]
+deprecated = false
+
+[[subjects]]
+id = "math.algebra"
+name = "Algebra"
+parent_id = "mathematics"
+path = "01_Mathematics/Algebra"
+keywords = ["algebra", "group theory", "ring theory", "field theory", "representation theory"]
+deprecated = false
+
+[[subjects]]
+id = "math.category_theory"
+name = "Category Theory"
+parent_id = "mathematics"
+path = "01_Mathematics/Category_Theory"
+keywords = ["category theory", "categorical algebra", "categories", "operads", "monoidal category", "tensor categories"]
+deprecated = false
+
+[[subjects]]
+id = "math.number_theory"
+name = "Number Theory"
+parent_id = "mathematics"
+path = "01_Mathematics/Number_Theory"
+keywords = ["number theory", "arithmetic geometry", "diophantine", "modular forms"]
+deprecated = false
+
+[[subjects]]
+id = "math.geometry"
+name = "Geometry"
+parent_id = "mathematics"
+path = "01_Mathematics/Geometry"
+keywords = ["geometry", "differential geometry", "riemannian", "symplectic", "algebraic geometry", "manifolds", "lie groups", "symmetric spaces"]
+deprecated = false
+
+[[subjects]]
+id = "math.topology"
+name = "Topology"
+parent_id = "mathematics"
+path = "01_Mathematics/Topology"
+keywords = ["topology", "algebraic topology", "homotopy", "homology", "cohomology", "knot theory", "grothendieck-teichmuller", "grothendieck teichmuller", "gt group", "grt"]
+deprecated = false
+
+[[subjects]]
+id = "math.analysis"
+name = "Analysis"
+parent_id = "mathematics"
+path = "01_Mathematics/Analysis"
+keywords = ["analysis", "real analysis", "complex analysis", "functional analysis", "harmonic analysis", "measure theory", "calculus", "differential equations"]
+deprecated = false
+
+[[subjects]]
+id = "math.probability_statistics"
+name = "Probability and Statistics"
+parent_id = "mathematics"
+path = "01_Mathematics/Probability_and_Statistics"
+keywords = ["probability", "statistics", "bayesian", "stochastic", "random process", "measure and probability"]
+deprecated = false
+
+[[subjects]]
+id = "math.logic_foundations"
+name = "Logic and Foundations"
+parent_id = "mathematics"
+path = "01_Mathematics/Logic_and_Foundations"
+keywords = ["logic", "set theory", "foundations", "model theory", "proof theory"]
+deprecated = false
+
+[[subjects]]
+id = "math.discrete"
+name = "Discrete Mathematics"
+parent_id = "mathematics"
+path = "01_Mathematics/Discrete_Mathematics"
+keywords = ["discrete mathematics", "combinatorics", "graph theory", "generating function", "computability"]
+deprecated = false
+
+[[subjects]]
+id = "math.applied"
+name = "Applied Mathematics"
+parent_id = "mathematics"
+path = "01_Mathematics/Applied_Mathematics"
+keywords = ["numerical methods", "optimization", "applied mathematics", "scientific computing", "finite element", "dynamical systems"]
+deprecated = false
+
+[[subjects]]
+id = "math.mathematical_physics"
+name = "Mathematical Physics"
+parent_id = "mathematics"
+path = "01_Mathematics/Mathematical_Physics"
+keywords = ["mathematical physics", "quantum groups", "hopf algebra", "quantum algebra", "integrable systems", "grt", "grothendieck-teichmuller", "grothendieck teichmuller"]
+deprecated = false
+
+[[subjects]]
+id = "physics"
+name = "Physics"
+parent_id = ""
+path = "02_Physics"
+keywords = ["physics"]
+deprecated = false
+
+[[subjects]]
+id = "physics.mechanics"
+name = "Classical Mechanics"
+parent_id = "physics"
+path = "02_Physics/Classical_Mechanics"
+keywords = ["classical mechanics", "analytical mechanics", "lagrangian", "hamiltonian dynamics", "celestial mechanics", "continuum mechanics"]
+deprecated = false
+
+[[subjects]]
+id = "physics.electromagnetism"
+name = "Electromagnetism and Optics"
+parent_id = "physics"
+path = "02_Physics/Electromagnetism_and_Optics"
+keywords = ["electrodynamics", "electromagnetism", "electricity and magnetism", "optics", "electromagnetic", "antenna theory", "radio astronomy"]
+deprecated = false
+
+[[subjects]]
+id = "physics.quantum"
+name = "Quantum Mechanics"
+parent_id = "physics"
+path = "02_Physics/Quantum_Mechanics"
+keywords = ["quantum mechanics", "quantum physics", "quantum theory", "quantum information", "quantum computing", "decoherence", "quantum optics"]
+deprecated = false
+
+[[subjects]]
+id = "physics.qft"
+name = "Quantum Field Theory"
+parent_id = "physics"
+path = "02_Physics/Quantum_Field_Theory"
+keywords = ["quantum field theory", "qft", "gauge theory", "standard model", "particle physics", "conformal field theory", "renormalization group"]
+deprecated = false
+
+[[subjects]]
+id = "physics.relativity"
+name = "Relativity and Gravitation"
+parent_id = "physics"
+path = "02_Physics/Relativity_and_Gravitation"
+keywords = ["general relativity", "special relativity", "gravitation", "spacetime", "black holes", "gravitational", "cosmology"]
+deprecated = false
+
+[[subjects]]
+id = "physics.statistical"
+name = "Statistical and Thermal Physics"
+parent_id = "physics"
+path = "02_Physics/Statistical_and_Thermal_Physics"
+keywords = ["statistical mechanics", "statistical physics", "thermodynamics", "thermal physics", "statistical field theory"]
+deprecated = false
+
+[[subjects]]
+id = "physics.condensed_matter"
+name = "Condensed Matter Physics"
+parent_id = "physics"
+path = "02_Physics/Condensed_Matter_Physics"
+keywords = ["condensed matter", "solid state physics", "superconductivity", "semiconductor", "crystallography", "magnetism"]
+deprecated = false
+
+[[subjects]]
+id = "physics.astrophysics"
+name = "Astrophysics and Cosmology"
+parent_id = "physics"
+path = "02_Physics/Astrophysics_and_Cosmology"
+keywords = ["astrophysics", "astronomy", "cosmology", "stellar", "planetary science", "galaxies", "universe", "astroparticle"]
+deprecated = false
+
+[[subjects]]
+id = "physics.fluids"
+name = "Fluid Mechanics and Geophysics"
+parent_id = "physics"
+path = "02_Physics/Fluid_Mechanics_and_Geophysics"
+keywords = ["fluid mechanics", "fluid dynamics", "geophysics", "earth physics", "plasma", "turbulence", "hydrodynamics"]
+deprecated = false
+
+[[subjects]]
+id = "physics.general"
+name = "General Physics and Laboratory"
+parent_id = "physics"
+path = "02_Physics/General_Physics_and_Laboratory"
+keywords = ["physics from symmetry", "introduction to physics", "laboratory", "lab manual", "report writing", "experimental physics", "fundamental astronomy"]
+deprecated = false
+
+[[subjects]]
+id = "computer_science"
+name = "Computer Science"
+parent_id = ""
+path = "03_Computer_Science"
+keywords = ["computer science", "computer science"]
+deprecated = false
+
+[[subjects]]
+id = "cs.theory"
+name = "Theoretical Computer Science"
+parent_id = "computer_science"
+path = "03_Computer_Science/Theoretical_Computer_Science"
+keywords = ["algorithms", "complexity theory", "theoretical computer science", "automata", "computability"]
+deprecated = false
+
+[[subjects]]
+id = "cs.cryptography"
+name = "Cryptography and Security"
+parent_id = "computer_science"
+path = "03_Computer_Science/Cryptography_and_Security"
+keywords = ["cryptography", "encryption", "cybersecurity", "security protocol"]
+deprecated = false
+
+[[subjects]]
+id = "cs.quantum"
+name = "Quantum Computing and Information"
+parent_id = "computer_science"
+path = "03_Computer_Science/Quantum_Computing_and_Information"
+keywords = ["quantum computing", "quantum information", "quantum algorithms"]
+deprecated = false
+
+[[subjects]]
+id = "cs.scientific_computing"
+name = "Scientific Computing and Information Theory"
+parent_id = "computer_science"
+path = "03_Computer_Science/Scientific_Computing_and_Information_Theory"
+keywords = ["scientific computing", "information theory", "numerical computing", "programming"]
+deprecated = false
+
+[[subjects]]
+id = "other.statistics"
+name = "Statistics and Data Analysis"
+parent_id = ""
+path = "04_Statistics_and_Data_Analysis"
+keywords = ["data analysis", "statistical inference", "bayesian tutorial", "data science"]
+deprecated = false
+
+[[subjects]]
+id = "interdisciplinary"
+name = "Interdisciplinary Science"
+parent_id = ""
+path = "05_Interdisciplinary_Science"
+keywords = ["interdisciplinary", "nanoscale", "environmental physics", "physical chemistry", "science at the nanoscale"]
+deprecated = false
+
+[[subjects]]
+id = "humanities_languages"
+name = "Languages and General Reference"
+parent_id = ""
+path = "06_Languages_and_General_Reference"
+keywords = ["language learning", "grammar", "german", "polish", "romanian language", "dictionary"]
+deprecated = false
+
+[[subjects]]
+id = "general_reference"
+name = "General Scientific Reference"
+parent_id = ""
+path = "07_General_Scientific_Reference"
+keywords = ["reference", "handbook", "encyclopedia", "general science", "dictionary"]
+deprecated = false
+
+[[subjects]]
+id = "review.unclassified"
+name = "Unclassified / Needs Review"
+parent_id = ""
+path = "90_Review_Queue/Unclassified"
+keywords = []
+deprecated = false
